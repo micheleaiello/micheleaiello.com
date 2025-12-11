@@ -17,10 +17,13 @@ author:
   avatar           : "https://www.gravatar.com/avatar/88002c0010af6e372cd7c306df8f20db"
   bio              : "I'm a dreamer trying to catch a break from reality. My pronouns are he/him 🇪🇺🇮🇹🇬🇧."
   location         : "London, UK"
-  email            : "michele[dot]aiello[at]yahoo[dot]com"
+  email            : "s3lgbudmq@mozmail.com"
 
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-f2 fa-linkedin"
+      url: "https://linkedin.com/in/micheleaiello"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/micheleaiello"
@@ -53,8 +56,8 @@ defaults:
       author_profile: true
       read_time: true
       comments: false
-      share: true
-      related: true
+      share: false
+      related: false
 
   - scope:
       path: ""
@@ -62,3 +65,31 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+atom_feed:
+  hide: true
+
+search: true
+lunr:
+  search_within_pages: true
+
+twitter:
+  username: "micheleaiello"
+facebook:
+  username: "micheleaiello"
+
+timezone: Europe/London
+
+social:
+  type: Person
+  name: Michele Aiello
+  links:
+    - "https://linkedin.com/in/micheleaiello"
+    - "https://github.com/micheleaiello"
+    - "https://mastodon.online/@micheleaiello"
+    - "https://bsky.app/profile/micheleaiello.bsky.social"
+    - "https://instagram.com/micheleaiello"
+    - "http://twitter.com/micheleaiello"
+    - "https://www.threads.com/@micheleaiello"
+    - "https://www.facebook.com/michele.aiello"
+

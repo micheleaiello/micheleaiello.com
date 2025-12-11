@@ -3,8 +3,4 @@ layout: home
 author_profile: true
 ---
 
-Hello, World!
-
-# Under contruction
-
-This site is currently under construction. More content soon.
+Welcome to my personal web site. I've just moved to Jekyll and Github Pages so now I need to figure out how it works :)
