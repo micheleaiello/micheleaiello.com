@@ -1,11 +1,13 @@
 source "https://rubygems.org"
 
 # The main Jekyll engine
-gem "jekyll", "~> 4.3"
+#gem "jekyll", "~> 4.3"
+
+gem "github-pages", "~> 232", group: :jekyll_plugins
 
 # The Minima theme
-#gem "minima", "~> 2.5"
-gem "minima", git: "https://github.com/jekyll/minima.git", branch: "master"
+#gem "minima", "~> 2.5.2"
+#gem "minima", git: "https://github.com/jekyll/minima.git", branch: "master"
 
 # Plugins
 group :jekyll_plugins do
