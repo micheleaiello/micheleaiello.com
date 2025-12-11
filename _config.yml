@@ -1,6 +1,6 @@
 title: Michele Aiello
-baseurl: "/micheleaiello.com" 
-url: "https://micheleaiello.github.io"
+baseurl: "" 
+url: "https://micheleaiello.com"
   #theme: minimal-mistakes-jekyll
 remote_theme: mmistakes/minimal-mistakes
 plugins:
