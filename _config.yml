@@ -1,7 +1,8 @@
 title: Michele Aiello
 baseurl: "" 
 url: "https://micheleaiello.com" 
-theme: minimal-mistakes-jekyll
+  #theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 plugins:
 - jekyll-remote-theme
 

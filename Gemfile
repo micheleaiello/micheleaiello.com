@@ -5,3 +5,5 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 
 gem "jekyll"
 gem "minimal-mistakes-jekyll"
+
+gem "jekyll-remote-theme"
