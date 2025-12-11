@@ -1,29 +1,66 @@
 title: Michele Aiello
-description: My personal Website. Opinions are my own.
 baseurl: "" 
 url: "https://micheleaiello.com" 
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
-  - jekyll-feed
+- jekyll-remote-theme
 
 # Development settings
 host: 0.0.0.0
 port: 4000
 
-minima:
-  skin: solarized-dark
-  social_links:
-    - title: LinkedIn
-      icon: linkedin
-      url: https://www.linkedin.com/in/micheleaiello
-    - title: Github
-      icon: github
-      url: https://github.com/micheleaiello
-    - title: Bluesky
-      icon: bluesky
-      url: https://bsky.app/profile/micheleaiello.bsky.social
-    - title: Mastodon
-      icon: mastodon
-      url: https://mastodon.online/@micheleaiello
-  hide_site_feed_link: true
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+subtitle                 : "Personal webnsite"
+name                     : &name "Michele Aiello"
+description              : &description "My personal website"
 
+author:
+  name             : *name
+  avatar           : "https://www.gravatar.com/avatar/88002c0010af6e372cd7c306df8f20db"
+  bio              : "I'm a dreamer trying to catch a break from reality. My pronouns are he/him 🇪🇺🇮🇹🇬🇧."
+  location         : "London, UK"
+  email            : "michele[dot]aiello[at]yahoo[dot]com"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/micheleaiello"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://mastodon.online/@micheleaiello"
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/micheleaiello.bsky.social"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/micheleaiello"
+    - label: "Threads"
+      icon: "fab fa-fw fa-threads"
+      url: "https://www.threads.com/@micheleaiello"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "http://twitter.com/micheleaiello"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/michele.aiello"
+  since: "2008"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true

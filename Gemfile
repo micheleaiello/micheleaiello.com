@@ -1,19 +1,7 @@
 source "https://rubygems.org"
 
-# The main Jekyll engine
-#gem "jekyll", "~> 4.3"
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
 
-gem "github-pages", "~> 232", group: :jekyll_plugins
-
-# The Minima theme
-#gem "minima", "~> 2.5.2"
-#gem "minima", git: "https://github.com/jekyll/minima.git", branch: "master"
-
-# Plugins
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.17"
-end
-
-# Windows support (fixes timezone issues on Windows)
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
+gem "jekyll"
+gem "minimal-mistakes-jekyll"
