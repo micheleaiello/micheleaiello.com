@@ -5,6 +5,7 @@ url: "https://micheleaiello.com"
 remote_theme: mmistakes/minimal-mistakes
 plugins:
 - jekyll-remote-theme
+- jekyll-include-cache
 
 # Development settings
 host: 0.0.0.0
