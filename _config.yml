@@ -1,0 +1,29 @@
+title: Michele Aiello
+description: My personal Website. Opinions are my own.
+baseurl: "" 
+url: "https://micheleaiello.com" 
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Development settings
+host: 0.0.0.0
+port: 4000
+
+minima:
+  skin: solarized-dark
+  social_links:
+    - title: LinkedIn
+      icon: linkedin
+      url: https://www.linkedin.com/in/micheleaiello
+    - title: Github
+      icon: github
+      url: https://github.com/micheleaiello
+    - title: Bluesky
+      icon: bluesky
+      url: https://bsky.app/profile/micheleaiello.bsky.social
+    - title: Mastodon
+      icon: mastodon
+      url: https://mastodon.online/@micheleaiello
+  hide_site_feed_link: true
+
