@@ -10,7 +10,7 @@ plugins:
 minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 subtitle                 : "Personal webnsite"
 name                     : &name "Michele Aiello"
-description              : &description "My personal website"
+description              : &description "Michele Aiello personal website"
 
 author:
   name             : *name
