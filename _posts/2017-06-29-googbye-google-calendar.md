@@ -92,7 +92,7 @@ Google Calendar AppStore Screenshots. Yes, the photo on the “Vintage clothes m
 
 Last year the Google Calendar app was nominated “[**The Best Calendar App**](https://www.theverge.com/2014/7/23/5929241/best-calendar-app-for-iphone)” for both iPhone and Android by [**The Verge**](https://www.theverge.com/2014/7/23/5929241/best-calendar-app-for-iphone). To cite their review: “_Google Calendar nails what matters_”. This is not a small achievement and something I’m extremely proud of.
 
-The best calendar apps for iPhone and Android — The Verge
+{% include video id="vQNOEZhy9nI" provider="youtube" caption="The best calendar apps for iPhone and Android — The Verge" %}
 
 During this 3.5 years a lot has changed in my career: I’ve moved more and more out of the pure individual contributor role and into leadership. It hasn’t been easy but in the end I’ve learned to love this new role. As an individual contributor I would have never been able to achieve what I achieved with a team and I’ve also learned to take satisfaction in the success and growth of everybody on my team. It’s amazing to see people improve and help them develop into incredibly talented engineers. I’m very proud of the very high success rate in promotions in my team and in how some of them have developed from junior developers to senior engineers and technical leads.
 
