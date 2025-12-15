@@ -1,4 +1,2 @@
 # micheleaiello.com
-micheleaiello.com web site
-
-michele.aiello@yahoo.com
+My personal website built using [Jekyll](https://jekyllrb.com/). Contains my contact info and social network links and I plan to add more posts and even port some old posts from Mediuum and Blogger.
