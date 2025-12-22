@@ -4,7 +4,6 @@ title: "Goodbye Google Calendar"
 classes: wide
 date: 2017-06-29
 
-
 gallery:
   - image_path: /assets/images/goodbye-google-calendar/food1.jpg
     url: /assets/images/goodbye-google-calendar/food1.jpg

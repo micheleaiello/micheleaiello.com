@@ -7,8 +7,13 @@ plugins:
 - jekyll-remote-theme
 - jekyll-include-cache
 
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-subtitle                 : "Personal webnsite"
+include: ["_pages"]
+
+# TODO: Figure out how to use breadcrumbs.
+#breadcrumbs: true 
+
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+subtitle                 : "Personal website"
 name                     : &name "Michele Aiello"
 description              : &description "Michele Aiello personal website"
 
@@ -18,8 +23,6 @@ author:
   bio              : "I'm a dreamer trying to catch a break from reality. My pronouns are he/him 🇪🇺🇮🇹🇬🇧."
   location         : "London, UK"
   email            : "s3lgbudmq@mozmail.com"
-
-footer:
   links:
     - label: "LinkedIn"
       icon: "fab fa-f2 fa-linkedin"
@@ -48,25 +51,59 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
       url: "https://www.facebook.com/michele.aiello"
+
+footer:
+  # links:
+  #   - label: "LinkedIn"
+  #     icon: "fab fa-f2 fa-linkedin"
+  #     url: "https://linkedin.com/in/micheleaiello"
+  #   - label: "GitHub"
+  #     icon: "fab fa-fw fa-github"
+  #     url: "https://github.com/micheleaiello"
+  #   - label: "GoodReads"
+  #     icon: "fab fa-fw fa-goodreads"
+  #     url: "https://www.goodreads.com/user/show/7811408-michele"
+  #   - label: "Mastodon"
+  #     icon: "fab fa-fw fa-mastodon"
+  #     url: "https://mastodon.online/@micheleaiello"
+  #   - label: "Bluesky"
+  #     icon: "fab fa-fw fa-bluesky"
+  #     url: "https://bsky.app/profile/micheleaiello.bsky.social"
+  #   - label: "Instagram"
+  #     icon: "fab fa-fw fa-instagram"
+  #     url: "https://instagram.com/micheleaiello"
+  #   - label: "Threads"
+  #     icon: "fab fa-fw fa-threads"
+  #     url: "https://www.threads.com/@micheleaiello"
+  #   - label: "Twitter"
+  #     icon: "fab fa-fw fa-twitter"
+  #     url: "http://twitter.com/micheleaiello"
+  #   - label: "Facebook"
+  #     icon: "fab fa-fw fa-facebook"
+  #     url: "https://www.facebook.com/michele.aiello"
   since: "2008"
 
 defaults:
+  # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
       author_profile: true
+      show_date: true
       read_time: true
       comments: false
-      share: false
+      share: true
       related: false
 
+  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
+      share: true
       author_profile: true
 
 atom_feed:
